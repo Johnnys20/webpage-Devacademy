@@ -163,3 +163,70 @@ form input{
 }
 
 
+/* information */
+
+
+.information{
+    margin-bottom: 100px;
+}
+
+.information__about-us{
+    display: flex;
+}
+
+.information__about-us img{
+    width: 50%;
+}
+
+.about__text{
+    width: 50%;
+    padding: 100px 20px;
+    text-align: center;
+    align-self: center;
+    background-color: #e6dddd;
+}
+
+.about__text h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about__text p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.information__offers{
+    display: flex;
+}
+
+.offer__text{
+    width: 50%;
+    padding: 100px 20px;
+    text-align: center;
+    align-self: center;
+    background-color: #e6dddd;
+}
+
+.offer__text h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.offer__text p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.information__offers img{
+    width: 50%;
+}
+
+
+
