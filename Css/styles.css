@@ -91,3 +91,41 @@ body{
     background-color: var(--thirdColor);
     border-radius: 0;
 }
+
+/* search-section */
+
+.search-section{
+    display: flex;
+    background-color: var(--thirdColor);
+    margin-bottom: 100px;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+}
+
+form{
+    margin-right: 20px;
+}
+
+form input{
+    border-radius: 5px;
+    border: 1px solid var(--thirdColor);
+}
+
+.btn_search{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primaryColor);
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.btn_search:hover{
+    color: var(--primaryColor);
+    background-color: white;
+    border-radius: 0;
+}
+
+
