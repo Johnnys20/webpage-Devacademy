@@ -236,6 +236,27 @@ form input{
     margin-bottom: 100px;
 }
 
+.course__brand{
+    text-align: center;
+}
+
+.course__brand img{
+    width: 100px;
+}
+
+.course__brand h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.course__brand p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
 .course__content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -286,4 +307,31 @@ form input{
     text-align: justify;
 }
 
+/* testimony */
+
+.testimony{
+    margin-bottom: 100px;
+}
+
+.testimonial-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.testimonial-text, .testimonial-author {
+    margin: 10px;
+}
 
