@@ -310,28 +310,63 @@ form input{
 /* testimony */
 
 .testimony{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    text-align: center;
 }
 
-.testimonial-img{
+.testimony h2{
+    font-size: 25px;
+}
+
+.testimony .pa{
+    color: var(--secondColor);
+    font-weight: 500;
+}
+
+.testimony hr{
+    display: inline-block;
     width: 100px;
-    height: 100px;
+    height: 2px;
+    background-color: var(--secondColor);
+    text-align: center;
+}
+
+.testimony__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    text-align: center;
+}
+
+.testimony__group{
+    border: 1px solid var(--secondColor);
+}
+
+.testimony__group p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px 20px 0 20px;
+}
+
+.testimony__information{
+    margin-bottom: -125px;
+}
+
+.testimony__information h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.testimony__information p{
+    color: var(--secondColor);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.testimony__information img{
+    text-align: center;
+    width:80px;
+    height: 80px;
     border-radius: 50%;
-    object-fit: cover;
 }
-
-.carousel-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.carousel-inner {
-    text-align: center;
-}
-
-.testimonial-text, .testimonial-author {
-    margin: 10px;
-}
-
