@@ -111,6 +111,8 @@ form{
 form input{
     border-radius: 5px;
     border: 1px solid var(--thirdColor);
+    padding: 5px;
+    font-size: 12px;
 }
 
 .btn_search{
