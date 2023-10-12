@@ -230,5 +230,61 @@ form input{
     width: 50%;
 }
 
+/* course */
 
+.course{
+    margin-bottom: 100px;
+}
+
+.course__content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.course__group {
+    display: flex;
+}
+
+.course__group{
+    text-align: center;
+    background-color: #c7c3c3;
+    box-shadow: 2px 2px 4px var(--primaryColor);
+    /* #c7c3c3 */
+}
+
+.course__group{
+    padding: 20px;
+}
+
+.course__img{
+    display: flex;
+}
+
+.course__img img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    align-self: center;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.course__text{
+    width: 400px;
+}
+
+.course__text h4{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.course__text p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.course__group .courser__text{}
 
