@@ -53,7 +53,11 @@ body{
 }
 
 #menu{
+    position: absolute;
+    right: 10px;
+    top: 24px;
     display: none;
+    z-index: 1000;
 }
 
 .menu__Icon{
@@ -457,4 +461,113 @@ form input{
 .networks a:hover{
     font-size: 20px;
     color: black;
+}
+
+@media (max-width:991px){
+    .header-navbar-brand{
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .header__content{
+        flex-direction: column;
+    }
+
+    .header__content .menu__Icon{
+        display: inline;
+        position: absolute;
+        right: 10px;
+        top: 24px;
+
+    }
+
+    .header__content .navbar{
+        position: absolute;
+        left: 0;
+        right: 50px;
+        background-color:var(--primaryColor);
+        border-radius: 10px;
+        display: none;
+    }
+
+    .header__content .navbar ul li{
+        width: 100%;
+    }
+
+    .header__content .navbar ul li a{
+        color: white;
+    }
+
+    #menu:checked ~ .navbar{
+        display: inline;
+    }
+
+    .buttom a{
+        display: block;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .welcoment__content{
+        display: block;
+    }
+
+    .information__about-us{
+        flex-direction: column;
+    }
+
+    .information__about-us img{
+        width: 100%;
+    }
+
+    .about__text{
+        width: 100%;
+    }
+
+    .information__offers{
+        flex-direction: column;
+    }
+
+    .offer__text{
+        width: 100%;
+    }
+
+    .information__offers img{
+        width: 100%;
+    }
+
+    .course__content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .course__group{
+        flex-direction: column;
+    }
+
+    .course__img{
+        align-self: center;
+    }
+
+    .course__text{
+        width: 100%;
+    }
+
+    .testimony__content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 150px;
+    }
+
+    .footer__content{
+        flex-direction: column;
+    }
+    .footer__brand{
+        margin-bottom: 20px;
+    }
+
+    .foooter__link{
+        margin-bottom: 20px;
+    }
 }
