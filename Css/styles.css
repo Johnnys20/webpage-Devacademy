@@ -52,6 +52,19 @@ body{
     color: var(--secondColor)
 }
 
+#menu{
+    display: none;
+}
+
+.menu__Icon{
+    width: 25px;
+}
+
+.menu__Icon{
+    cursor: pointer;
+    display: none;
+}
+
 .navbar{
     margin-top: 13px;
     margin-left: 50px;
